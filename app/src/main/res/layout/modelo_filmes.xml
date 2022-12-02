@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Um arqueólogo fica obcecado pelos escritos encontrados em um navio viking, que podem solucionar o mistério de Ragnarok Porém, durante suas buscas, ele acaba despertando acidentalmente um monstro gigantesco."
+            android:text="Um arqueólogo fica obcecado pelos escritos encontrados em um navio viking, que podem solucionar o mistério de Ragnarok Porém, durante suas buscas, ele acaba despertando acidentalmente um monstro gigantesco." />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="4.5"
-                android:textSize="15sp"
+                android:textSize="15sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
