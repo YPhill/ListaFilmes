@@ -1,41 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    android:background="#56AEF4">
+    android:background="#9D9B9F"
+    android:orientation="horizontal">
 
     <ImageView
-        android:layout_margin="10dp"
+        android:id="@+id/imgFilmes"
         android:layout_width="180dp"
         android:layout_height="280dp"
-        android:id="@+id/imgFilmes"
-        android:src="@drawable/ragnarok"
-        />
+        android:layout_margin="10dp"
+        android:src="@drawable/ragnarok" />
 
-    <TextView
-
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ragnarok"
-        android:layout_marginTop="30dp"
-        />
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Ragnarok"
+            android:textSize="25dp" />
 
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Um arqueólogo fica obcecado pelos escritos encontrados em um navio viking, que podem solucionar o mistério de Ragnarok Porém, durante suas buscas, ele acaba despertando acidentalmente um monstro gigantesco."
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
 
+            <RatingBar
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:numStars="1" />
 
+            <TextView
+                android:id="@+id/txtNota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="4.5"
+                android:textSize="15sp"
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_baseline_favorite" />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_baseline_share" />
+        </LinearLayout>
 
+        <Button
 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Alugar" />
 
-
-
-
-
-
-
+    </LinearLayout>
 
 
 </LinearLayout>
